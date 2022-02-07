@@ -12,3 +12,7 @@
 .tarjeta_footer {
   top: 50%;
 }
+.game_img {
+  min-width: 200px;
+  width: 100%;
+}

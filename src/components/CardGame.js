@@ -18,13 +18,18 @@ const CardGame = ({game}) => {
         img = generala;
         break;
     }
+
     return(
         <div className='card m-2 tarjeta'>
             <div className='card-head'>
                 <h1 className='card-title'>{game.title}</h1>
             </div>
-
-            <img src={img}></img>
+            <div className='card-img'>
+                <a href='#'>
+                    <img  className='game_img' src={img}></img>
+                </a>
+            </div>
+            
 
             <div className='card-end bg-dark tarjeta_footer'>
                 <span class="btn btn-dark">team: </span>

@@ -7,19 +7,18 @@ const games = [
         title: 'truco',
         team: 2,
         counter: 30,
-        img: 'truco.jpg',
+
     },
     {
         title: 'generala',
         team: 'any',
         counter: false,
-        img: 'truco.jpg',
+
     },
     {
         title: 'burako',
         team: 2,
         counter: 3000,
-        img: 'burako.jpg',
     },
 ];
 

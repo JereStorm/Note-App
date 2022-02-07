@@ -1,0 +1,14 @@
+.tarjeta {
+  width: 30%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.tarjeta_container {
+  width: 80%;
+}
+.tarjeta_footer {
+  top: 50%;
+}

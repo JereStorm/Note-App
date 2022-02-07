@@ -29,15 +29,7 @@ const CardGame = ({game}) => {
                     <img  className='game_img' src={img}></img>
                 </a>
             </div>
-            
 
-            <div className='card-end bg-dark tarjeta_footer'>
-                <span class="btn btn-dark">team: </span>
-                <div class="btn-group gap-2" role="group">
-                    
-                    <span><a class="btn btn-dark">{ game.team }</a></span>
-                </div>
-            </div>
         </div>
     );
 }

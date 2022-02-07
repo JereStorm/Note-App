@@ -1,10 +1,14 @@
+.contenedor {
+  color: white;
+}
 .tarjeta {
-  width: 30%;
-  height: 300px;
+  width: 40%;
   text-align: center;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
 }
 .tarjeta_container {
   width: 80%;
@@ -13,6 +17,6 @@
   top: 50%;
 }
 .game_img {
-  min-width: 200px;
   width: 100%;
+  height: 90%;
 }
